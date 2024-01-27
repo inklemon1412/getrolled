@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>viktig!</title>
+    <style>
+        .overskrift {
+           background-color: aquamarine; 
+           color: beige;
+           width: 200px;
+           border: 50px;
+        }
+        div.card {
+            background-color: plum;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overskrift"><h1>this is super important</h1></div>
+    
+    <div class="card">
+        <div class="header color1" onclick="show1()">please click me! nothing to be afraid of here</div>
+        <div id="mytag"></div>
+    </div>
+
+    <script>
+
+
+      function show1(){
+        document.getElementById('mytag').innerHTML=`
+            <img src="img/rickrollroll.gif"/>`
+    }
+
+    </script>
+
+</body>
+</html>
